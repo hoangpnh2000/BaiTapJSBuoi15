@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Bootstrap -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <div class="bai1">
+            <div class="container w-50">
+                <h1>Tính tiền lương nhân viên</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="inputDiemChuan">Điểm chuẩn</label>
+                        <input
+                            type="number"
+                            class="form-control"
+                            id="inputDiemChuan"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="inputKhuVuc">Chọn khu vực</label>
+                        <select class="custom-select" id="inputKhuVuc">
+                            <option selected>Chọn khu vực</option>
+                            <option value="0">X</option>
+                            <option value="2">A</option>
+                            <option value="1">B</option>
+                            <option value="0.5">C</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputDoiTuong">Chọn đối tượng</label>
+                        <select class="custom-select" id="inputDoiTuong">
+                            <option selected>Chọn đối tượng</option>
+                            <option value="0">0</option>
+                            <option value="2.5">1</option>
+                            <option value="1.5">2</option>
+                            <option value="1">3</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputDiem1">Điểm môn thứ 1</label>
+                        <input
+                            type="number"
+                            class="form-control"
+                            id="InputDiem1"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="InputDiem2">Điểm môn thứ 2</label>
+                        <input
+                            type="number"
+                            class="form-control"
+                            id="InputDiem2"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="InputDiem3">Điểm môn thứ 3</label>
+                        <input
+                            type="number"
+                            class="form-control"
+                            id="InputDiem3"
+                        />
+                    </div>
+                    <button
+                        id="btn__bai1"
+                        type="button"
+                        class="btn btn-primary mb-3"
+                    >
+                        Submit
+                    </button>
+                    <p
+                        id="textChange__bai1"
+                        class="alert alert-warning d-block p-20"
+                    >
+                        Kết quả
+                    </p>
+                </form>
+            </div>
+        </div>
+
+        <!-- JQuery -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- BootstrapS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="./js/bai1.js"></script>
+    </body>
+</html>
